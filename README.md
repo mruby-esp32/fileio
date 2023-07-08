@@ -3,7 +3,9 @@ mruby-fileio
 
 `File` class for mruby on ESP32, compatible with ESP-IDF version 5 and mruby 3.2.
 
-This gem is a partial modification of the [core mruby-io](https://github.com/mruby/mruby/tree/master/mrbgems/mruby-io) gem, implementing the `File` class for the ESP32. It depends on [mruby-io for ESP32](https://github.com/mruby-esp32/mruby-io/tree/0.5), which implements a modified `IO` class for the ESP32.
+This gem is a partial modification of the [mruby-io](https://github.com/mruby/mruby/tree/87260e7bb1a9edfb2ce9b41549c4142129061ca5/mrbgems/mruby-io) gem from mruby 3.2.0. It depends on the `IO` class from [mruby-io](https://github.com/mruby-esp32/mruby-io/tree/0.5), also modified for the ESP32.
+
+It depends on [mruby-io for ESP32](https://github.com/mruby-esp32/mruby-io/tree/0.5), which implements a modified `IO` class for the ESP32.
 
 ## Installation
 Add the line below to your `build_config.rb`:
